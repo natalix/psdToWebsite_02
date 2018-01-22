@@ -26,19 +26,15 @@
     border-radius: 2%;
     cursor: pointer;
     transition: all .4s linear;
-    letter-spacing: normal;
 }
 
 .red-btn:hover {
-    background-color: hsl(0, 78%, 45%);
-    letter-spacing: 3px;
-    margin: 0 auto;
+    background-color: hsl(0, 78%, 40%);
 }
 
 .red-btn:focus {
     outline: 0;
-    background-color: hsl(0, 78%, 45%);
-    letter-spacing: 3px;
+    background-color: hsl(0, 78%, 40%);
 }
 
 .social-btn {
@@ -662,6 +658,16 @@ footer .social-btn:hover i {
 
     .authors {
         grid-row: 3 / 3;
+    }
+}
+
+@media (max-width: 750px) and (orientation: landscape) {
+    header {
+        height: 500px;
+    }
+
+    header .container {
+        grid-template-rows: 50px 50px 30px 370px;
     }
 }
 
