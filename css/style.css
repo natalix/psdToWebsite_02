@@ -32,6 +32,7 @@
 .red-btn:hover {
     background-color: hsl(0, 78%, 45%);
     letter-spacing: 3px;
+    margin: 0 auto;
 }
 
 .red-btn:focus {
@@ -61,7 +62,7 @@
 
 /* HEADER SECTION */
 header {
-    background: url("./img/headerTop.jpg") #2a2d48;
+    background: url("../img/headerTop.jpg") #2a2d48;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
